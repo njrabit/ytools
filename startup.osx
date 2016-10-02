@@ -1,0 +1,9 @@
+
+alias ysearch="brew desc -s $*"
+alias yreinstall="brew reinstall $*"
+alias yinstall="brew install $*"
+alias yrebuild="brew reinstall $* --HEAD"
+alias ybuild="brew install $* --HEAD"
+alias yinfo="brew info $*"
+alias ylist="brew list $*"
+alias yzsh-plugins="ranger ~/.oh-my-zsh/plugins"

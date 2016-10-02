@@ -1,0 +1,10 @@
+#!/bin/sh
+echo :: setting up ytools environment
+YPATH=~/.ytools
+
+. $YPATH/startup.common
+case "$OSTYPE" in
+  darwin*)  $YPATH/startup.osx ;;
+  linux*)   $YPATH/startup.linux ;;
+  *)        $YPATH/unknown.msg ;;
+esac

@@ -1,0 +1,11 @@
+
+alias ytbest="youtube-dl -f bestvideo+bestaudio $*"
+alias ytaudio="youtube-dl -f bestaudio $*"
+function yt {
+	echo "::: Please enter video link URL"
+	read yturl
+	youtube-dl -F $yturl
+	echo "::: Please enter preferred quality/format"
+	read ytqual
+	youtube-dl -f $ytqual $yturl
+}
