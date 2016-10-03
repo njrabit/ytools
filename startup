@@ -4,7 +4,7 @@ YPATH=~/.ytools
 
 . $YPATH/startup.common
 case "$OSTYPE" in
-  darwin*)  $YPATH/startup.osx ;;
-  linux*)   $YPATH/startup.linux ;;
-  *)        $YPATH/unknown.msg ;;
+  darwin*)  . $YPATH/startup.osx ;;
+  linux*)   . $YPATH/startup.linux ;;
+  *)        echo "::: Unknown platform" ;;
 esac
