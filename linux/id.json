@@ -1,0 +1,82 @@
+[
+    {
+        "iddistro": "SuSE",
+        "idfile ": [
+            "  /etc/SuSE-release"
+        ],
+        "idversion": ""
+    },
+    {
+        "iddistro": "RedHat",
+        "idfile ": [
+            " /etc/redhat-release",
+            "/etc/redhat_version"
+        ],
+        "idversion": ""
+    },
+    {
+        "iddistro": "Fedora",
+        "idfile ": [
+            " /etc/fedora-release"
+        ],
+        "idversion": ""
+    },
+    {
+        "iddistro": "Slackware",
+        "idfile ": [
+            " /etc/slackware-release",
+            "/etc/slackware-version"
+        ],
+        "idversion": ""
+    },
+    {
+        "iddistro": "Debian",
+        "idfile ": [
+            " /etc/debian_release",
+            "/etc/debian_version"
+        ],
+        "idversion": "Old"
+    },
+    {
+        "iddistro": "Debian",
+        "idfile ": [
+            " /etc/os-release"
+        ],
+        "idversion": "New"
+    },
+    {
+        "iddistro": "Mandrake",
+        "idfile ": [
+            " /etc/mandrake-release"
+        ],
+        "idversion": ""
+    },
+    {
+        "iddistro": "YellowDog",
+        "idfile ": null,
+        "idversion": [
+            " /etc/yellowdog-release"
+        ]
+    },
+    {
+        "iddistro": "SunJDS",
+        "idfile ": [
+            " /etc/sun-release"
+        ],
+        "idversion": ""
+    },
+    {
+        "iddistro": "Solaris",
+        "idfile ": [
+            " /etc/release"
+        ],
+        "idversion": ""
+    },
+    {
+        "iddistro": "Gentoo",
+        "idfile ": [
+            " /etc/gentoo-release"
+        ],
+        "idversion": ""
+    }
+]
